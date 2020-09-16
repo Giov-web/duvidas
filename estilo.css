@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CLASSES*/
+
+.header-container{
+    display: flex;
+    justify-content:center;
+    position: relative; 
+    background-image: url("img/ods8.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+     
+}
+
+.header {
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    padding: 20px;
+    border: 48px;
+}
+
+.exp {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.metas {
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    position: relative;
+    left: 700px;
+    padding-top: 20px;
+}
+
+.lista {
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+}
+
+/*TAGS*/
+
+figure {
+    float: right;
+    padding-left: 40px;
+    padding-right:30px;
+}
+
+iframe {
+    padding-top: 50px;
+    padding-left: 20px;
+}
